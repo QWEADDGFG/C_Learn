@@ -83,30 +83,30 @@ CMakeFiles/demo.dir/src/hello.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/demo.dir/src/hello.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/HwHiAiUser/gp/C_C++/C_Learn/src/hello.cpp -o CMakeFiles/demo.dir/src/hello.cpp.s
 
-CMakeFiles/demo.dir/src/main.cpp.o: CMakeFiles/demo.dir/flags.make
-CMakeFiles/demo.dir/src/main.cpp.o: ../src/main.cpp
-CMakeFiles/demo.dir/src/main.cpp.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/HwHiAiUser/gp/C_C++/C_Learn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/demo.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/src/main.cpp.o -MF CMakeFiles/demo.dir/src/main.cpp.o.d -o CMakeFiles/demo.dir/src/main.cpp.o -c /home/HwHiAiUser/gp/C_C++/C_Learn/src/main.cpp
+CMakeFiles/demo.dir/src/main.c.o: CMakeFiles/demo.dir/flags.make
+CMakeFiles/demo.dir/src/main.c.o: ../src/main.c
+CMakeFiles/demo.dir/src/main.c.o: CMakeFiles/demo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/HwHiAiUser/gp/C_C++/C_Learn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/demo.dir/src/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/demo.dir/src/main.c.o -MF CMakeFiles/demo.dir/src/main.c.o.d -o CMakeFiles/demo.dir/src/main.c.o -c /home/HwHiAiUser/gp/C_C++/C_Learn/src/main.c
 
-CMakeFiles/demo.dir/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/demo.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/HwHiAiUser/gp/C_C++/C_Learn/src/main.cpp > CMakeFiles/demo.dir/src/main.cpp.i
+CMakeFiles/demo.dir/src/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/demo.dir/src/main.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/HwHiAiUser/gp/C_C++/C_Learn/src/main.c > CMakeFiles/demo.dir/src/main.c.i
 
-CMakeFiles/demo.dir/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/demo.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/HwHiAiUser/gp/C_C++/C_Learn/src/main.cpp -o CMakeFiles/demo.dir/src/main.cpp.s
+CMakeFiles/demo.dir/src/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/demo.dir/src/main.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/HwHiAiUser/gp/C_C++/C_Learn/src/main.c -o CMakeFiles/demo.dir/src/main.c.s
 
 # Object files for target demo
 demo_OBJECTS = \
 "CMakeFiles/demo.dir/src/hello.cpp.o" \
-"CMakeFiles/demo.dir/src/main.cpp.o"
+"CMakeFiles/demo.dir/src/main.c.o"
 
 # External object files for target demo
 demo_EXTERNAL_OBJECTS =
 
 ../bin/demo: CMakeFiles/demo.dir/src/hello.cpp.o
-../bin/demo: CMakeFiles/demo.dir/src/main.cpp.o
+../bin/demo: CMakeFiles/demo.dir/src/main.c.o
 ../bin/demo: CMakeFiles/demo.dir/build.make
 ../bin/demo: CMakeFiles/demo.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/HwHiAiUser/gp/C_C++/C_Learn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../bin/demo"
