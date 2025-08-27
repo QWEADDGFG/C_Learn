@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/demo.dir/src/hello.cpp.o CMakeFiles/demo.dir/src/main.c.o -o ../bin/demo 
+/usr/bin/cc -g CMakeFiles/demo.dir/src/main.c.o -o ../bin/demo 

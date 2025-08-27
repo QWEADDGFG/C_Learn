@@ -129,29 +129,42 @@ demo/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/build
 .PHONY : demo/fast
 
-src/hello.o: src/hello.cpp.o
-.PHONY : src/hello.o
+#=============================================================================
+# Target rules for targets named grade_converter
+
+# Build rule for target.
+grade_converter: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 grade_converter
+.PHONY : grade_converter
+
+# fast build rule for target.
+grade_converter/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/grade_converter.dir/build.make CMakeFiles/grade_converter.dir/build
+.PHONY : grade_converter/fast
+
+src/grade_converter.o: src/grade_converter.cpp.o
+.PHONY : src/grade_converter.o
 
 # target to build an object file
-src/hello.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/src/hello.cpp.o
-.PHONY : src/hello.cpp.o
+src/grade_converter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/grade_converter.dir/build.make CMakeFiles/grade_converter.dir/src/grade_converter.cpp.o
+.PHONY : src/grade_converter.cpp.o
 
-src/hello.i: src/hello.cpp.i
-.PHONY : src/hello.i
+src/grade_converter.i: src/grade_converter.cpp.i
+.PHONY : src/grade_converter.i
 
 # target to preprocess a source file
-src/hello.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/src/hello.cpp.i
-.PHONY : src/hello.cpp.i
+src/grade_converter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/grade_converter.dir/build.make CMakeFiles/grade_converter.dir/src/grade_converter.cpp.i
+.PHONY : src/grade_converter.cpp.i
 
-src/hello.s: src/hello.cpp.s
-.PHONY : src/hello.s
+src/grade_converter.s: src/grade_converter.cpp.s
+.PHONY : src/grade_converter.s
 
 # target to generate assembly for a file
-src/hello.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/src/hello.cpp.s
-.PHONY : src/hello.cpp.s
+src/grade_converter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/grade_converter.dir/build.make CMakeFiles/grade_converter.dir/src/grade_converter.cpp.s
+.PHONY : src/grade_converter.cpp.s
 
 src/main.o: src/main.c.o
 .PHONY : src/main.o
@@ -186,9 +199,10 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... demo"
-	@echo "... src/hello.o"
-	@echo "... src/hello.i"
-	@echo "... src/hello.s"
+	@echo "... grade_converter"
+	@echo "... src/grade_converter.o"
+	@echo "... src/grade_converter.i"
+	@echo "... src/grade_converter.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

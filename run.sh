@@ -4,3 +4,4 @@ cd build
 cmake ..
 make
 cp ../bin/demo ..
+# cp ../bin/grade_converter ..
