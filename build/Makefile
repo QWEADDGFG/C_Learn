@@ -129,43 +129,6 @@ demo/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/build
 .PHONY : demo/fast
 
-#=============================================================================
-# Target rules for targets named grade_converter
-
-# Build rule for target.
-grade_converter: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 grade_converter
-.PHONY : grade_converter
-
-# fast build rule for target.
-grade_converter/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/grade_converter.dir/build.make CMakeFiles/grade_converter.dir/build
-.PHONY : grade_converter/fast
-
-src/grade_converter.o: src/grade_converter.cpp.o
-.PHONY : src/grade_converter.o
-
-# target to build an object file
-src/grade_converter.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/grade_converter.dir/build.make CMakeFiles/grade_converter.dir/src/grade_converter.cpp.o
-.PHONY : src/grade_converter.cpp.o
-
-src/grade_converter.i: src/grade_converter.cpp.i
-.PHONY : src/grade_converter.i
-
-# target to preprocess a source file
-src/grade_converter.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/grade_converter.dir/build.make CMakeFiles/grade_converter.dir/src/grade_converter.cpp.i
-.PHONY : src/grade_converter.cpp.i
-
-src/grade_converter.s: src/grade_converter.cpp.s
-.PHONY : src/grade_converter.s
-
-# target to generate assembly for a file
-src/grade_converter.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/grade_converter.dir/build.make CMakeFiles/grade_converter.dir/src/grade_converter.cpp.s
-.PHONY : src/grade_converter.cpp.s
-
 src/main.o: src/main.c.o
 .PHONY : src/main.o
 
@@ -199,10 +162,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... demo"
-	@echo "... grade_converter"
-	@echo "... src/grade_converter.o"
-	@echo "... src/grade_converter.i"
-	@echo "... src/grade_converter.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

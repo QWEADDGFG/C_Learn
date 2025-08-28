@@ -64,7 +64,6 @@ CMAKE_BINARY_DIR = /home/HwHiAiUser/gp/C_C++/C_Learn/build
 
 # The main recursive "all" target.
 all: CMakeFiles/demo.dir/all
-all: CMakeFiles/grade_converter.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -73,7 +72,6 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/demo.dir/clean
-clean: CMakeFiles/grade_converter.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -101,32 +99,6 @@ demo: CMakeFiles/demo.dir/rule
 CMakeFiles/demo.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/clean
 .PHONY : CMakeFiles/demo.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/grade_converter.dir
-
-# All Build rule for target.
-CMakeFiles/grade_converter.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/grade_converter.dir/build.make CMakeFiles/grade_converter.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/grade_converter.dir/build.make CMakeFiles/grade_converter.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/HwHiAiUser/gp/C_C++/C_Learn/build/CMakeFiles --progress-num=3,4 "Built target grade_converter"
-.PHONY : CMakeFiles/grade_converter.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/grade_converter.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/HwHiAiUser/gp/C_C++/C_Learn/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/grade_converter.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/HwHiAiUser/gp/C_C++/C_Learn/build/CMakeFiles 0
-.PHONY : CMakeFiles/grade_converter.dir/rule
-
-# Convenience name for target.
-grade_converter: CMakeFiles/grade_converter.dir/rule
-.PHONY : grade_converter
-
-# clean rule for target.
-CMakeFiles/grade_converter.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/grade_converter.dir/build.make CMakeFiles/grade_converter.dir/clean
-.PHONY : CMakeFiles/grade_converter.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

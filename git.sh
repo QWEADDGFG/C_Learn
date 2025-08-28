@@ -10,3 +10,6 @@ git remote -v
 git pull origin main --allow-unrelated-histories
 # 5.使用push指令进行上传,
 git push origin main
+
+
+# git pull origin main

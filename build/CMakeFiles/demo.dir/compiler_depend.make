@@ -3,6 +3,7 @@
 
 CMakeFiles/demo.dir/src/main.c.o: ../src/main.c \
   /usr/include/stdc-predef.h \
+  ../include/scanner.h \
   /usr/include/stdio.h \
   /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
   /usr/include/features.h \
@@ -41,6 +42,10 @@ CMakeFiles/demo.dir/src/main.c.o: ../src/main.c \
 
 /usr/lib/gcc/aarch64-linux-gnu/11/include/stdarg.h:
 
+/usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h:
+
+/usr/lib/gcc/aarch64-linux-gnu/11/include/stddef.h:
+
 /usr/include/aarch64-linux-gnu/bits/stdio_lim.h:
 
 /usr/include/aarch64-linux-gnu/bits/typesizes.h:
@@ -48,6 +53,8 @@ CMakeFiles/demo.dir/src/main.c.o: ../src/main.c \
 /usr/include/stdc-predef.h:
 
 /usr/include/aarch64-linux-gnu/bits/timesize.h:
+
+../include/scanner.h:
 
 /usr/include/aarch64-linux-gnu/bits/time64.h:
 
@@ -76,7 +83,3 @@ CMakeFiles/demo.dir/src/main.c.o: ../src/main.c \
 /usr/include/aarch64-linux-gnu/bits/wordsize.h:
 
 /usr/include/aarch64-linux-gnu/sys/cdefs.h:
-
-/usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h:
-
-/usr/lib/gcc/aarch64-linux-gnu/11/include/stddef.h:

@@ -12,9 +12,11 @@ set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 # )
 
 # 原始demo程序
-# add_executable(demo src/main.c)
-add_executable(demo src/func.c)
+add_executable(demo src/main.c)
+# add_executable(demo src/array.c)
+# add_executable(demo src/struct.c)
+# add_executable(demo src/qsort_demo.c)
 # 成绩转换程序
-add_executable(grade_converter src/grade_converter.cpp)
+# add_executable(grade_converter src/grade_converter.cpp)
 
 set(CMAKE_BUILD_TYPE "Debug") #生成可以debug的可执行文件
