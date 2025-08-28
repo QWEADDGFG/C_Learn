@@ -117,41 +117,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named demo
+# Target rules for targets named 1_fopen
 
 # Build rule for target.
-demo: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 demo
-.PHONY : demo
+1_fopen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 1_fopen
+.PHONY : 1_fopen
 
 # fast build rule for target.
-demo/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/build
-.PHONY : demo/fast
+1_fopen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1_fopen.dir/build.make CMakeFiles/1_fopen.dir/build
+.PHONY : 1_fopen/fast
 
-src/main.o: src/main.c.o
-.PHONY : src/main.o
+src/1_fopen.o: src/1_fopen.c.o
+.PHONY : src/1_fopen.o
 
 # target to build an object file
-src/main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/src/main.c.o
-.PHONY : src/main.c.o
+src/1_fopen.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1_fopen.dir/build.make CMakeFiles/1_fopen.dir/src/1_fopen.c.o
+.PHONY : src/1_fopen.c.o
 
-src/main.i: src/main.c.i
-.PHONY : src/main.i
+src/1_fopen.i: src/1_fopen.c.i
+.PHONY : src/1_fopen.i
 
 # target to preprocess a source file
-src/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/src/main.c.i
-.PHONY : src/main.c.i
+src/1_fopen.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1_fopen.dir/build.make CMakeFiles/1_fopen.dir/src/1_fopen.c.i
+.PHONY : src/1_fopen.c.i
 
-src/main.s: src/main.c.s
-.PHONY : src/main.s
+src/1_fopen.s: src/1_fopen.c.s
+.PHONY : src/1_fopen.s
 
 # target to generate assembly for a file
-src/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/src/main.c.s
-.PHONY : src/main.c.s
+src/1_fopen.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1_fopen.dir/build.make CMakeFiles/1_fopen.dir/src/1_fopen.c.s
+.PHONY : src/1_fopen.c.s
 
 # Help Target
 help:
@@ -161,10 +161,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... demo"
-	@echo "... src/main.o"
-	@echo "... src/main.i"
-	@echo "... src/main.s"
+	@echo "... 1_fopen"
+	@echo "... src/1_fopen.o"
+	@echo "... src/1_fopen.i"
+	@echo "... src/1_fopen.s"
 .PHONY : help
 
 

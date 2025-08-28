@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include "fun.h"
 
 int compare(const void *p1, const void *p2);
 
