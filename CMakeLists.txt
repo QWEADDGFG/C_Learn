@@ -18,7 +18,10 @@ set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 # add_executable(demo src/qsort_demo.c)
 # add_executable(1_fopen src/1_fopen.c)
 # add_executable(2_fread src/2_fread.c)
-add_executable(3_chmod src/3_chmod.c)
+# add_executable(3_chmod src/3_chmod.c)
+# add_executable(4_getcwd src/4_getcwd.c)
+add_executable(5_chdir src/5_chdir.c)
+
 # 成绩转换程序
 # add_executable(grade_converter src/grade_converter.cpp)
 
