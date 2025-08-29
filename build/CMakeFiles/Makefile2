@@ -63,8 +63,7 @@ CMAKE_BINARY_DIR = /home/HwHiAiUser/gp/C_C++/C_Learn/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/demo.dir/all
-all: CMakeFiles/5_chdir.dir/all
+all: CMakeFiles/8_myls.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -72,61 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/demo.dir/clean
-clean: CMakeFiles/5_chdir.dir/clean
+clean: CMakeFiles/8_myls.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/demo.dir
+# Target rules for target CMakeFiles/8_myls.dir
 
 # All Build rule for target.
-CMakeFiles/demo.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/HwHiAiUser/gp/C_C++/C_Learn/build/CMakeFiles --progress-num=3,4 "Built target demo"
-.PHONY : CMakeFiles/demo.dir/all
+CMakeFiles/8_myls.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_myls.dir/build.make CMakeFiles/8_myls.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_myls.dir/build.make CMakeFiles/8_myls.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/HwHiAiUser/gp/C_C++/C_Learn/build/CMakeFiles --progress-num=1,2 "Built target 8_myls"
+.PHONY : CMakeFiles/8_myls.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/demo.dir/rule: cmake_check_build_system
+CMakeFiles/8_myls.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/HwHiAiUser/gp/C_C++/C_Learn/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/demo.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/8_myls.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/HwHiAiUser/gp/C_C++/C_Learn/build/CMakeFiles 0
-.PHONY : CMakeFiles/demo.dir/rule
+.PHONY : CMakeFiles/8_myls.dir/rule
 
 # Convenience name for target.
-demo: CMakeFiles/demo.dir/rule
-.PHONY : demo
+8_myls: CMakeFiles/8_myls.dir/rule
+.PHONY : 8_myls
 
 # clean rule for target.
-CMakeFiles/demo.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/clean
-.PHONY : CMakeFiles/demo.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/5_chdir.dir
-
-# All Build rule for target.
-CMakeFiles/5_chdir.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/5_chdir.dir/build.make CMakeFiles/5_chdir.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/5_chdir.dir/build.make CMakeFiles/5_chdir.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/HwHiAiUser/gp/C_C++/C_Learn/build/CMakeFiles --progress-num=1,2 "Built target 5_chdir"
-.PHONY : CMakeFiles/5_chdir.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/5_chdir.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/HwHiAiUser/gp/C_C++/C_Learn/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/5_chdir.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/HwHiAiUser/gp/C_C++/C_Learn/build/CMakeFiles 0
-.PHONY : CMakeFiles/5_chdir.dir/rule
-
-# Convenience name for target.
-5_chdir: CMakeFiles/5_chdir.dir/rule
-.PHONY : 5_chdir
-
-# clean rule for target.
-CMakeFiles/5_chdir.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/5_chdir.dir/build.make CMakeFiles/5_chdir.dir/clean
-.PHONY : CMakeFiles/5_chdir.dir/clean
+CMakeFiles/8_myls.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_myls.dir/build.make CMakeFiles/8_myls.dir/clean
+.PHONY : CMakeFiles/8_myls.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

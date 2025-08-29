@@ -1,4 +1,3 @@
-/home/HwHiAiUser/gp/C_C++/C_Learn/build/CMakeFiles/demo.dir
-/home/HwHiAiUser/gp/C_C++/C_Learn/build/CMakeFiles/5_chdir.dir
+/home/HwHiAiUser/gp/C_C++/C_Learn/build/CMakeFiles/8_myls.dir
 /home/HwHiAiUser/gp/C_C++/C_Learn/build/CMakeFiles/edit_cache.dir
 /home/HwHiAiUser/gp/C_C++/C_Learn/build/CMakeFiles/rebuild_cache.dir

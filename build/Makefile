@@ -117,78 +117,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named demo
+# Target rules for targets named 8_myls
 
 # Build rule for target.
-demo: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 demo
-.PHONY : demo
+8_myls: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 8_myls
+.PHONY : 8_myls
 
 # fast build rule for target.
-demo/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/build
-.PHONY : demo/fast
+8_myls/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_myls.dir/build.make CMakeFiles/8_myls.dir/build
+.PHONY : 8_myls/fast
 
-#=============================================================================
-# Target rules for targets named 5_chdir
-
-# Build rule for target.
-5_chdir: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 5_chdir
-.PHONY : 5_chdir
-
-# fast build rule for target.
-5_chdir/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/5_chdir.dir/build.make CMakeFiles/5_chdir.dir/build
-.PHONY : 5_chdir/fast
-
-linux/7_rmdir.o: linux/7_rmdir.c.o
-.PHONY : linux/7_rmdir.o
+src/8_myls.o: src/8_myls.c.o
+.PHONY : src/8_myls.o
 
 # target to build an object file
-linux/7_rmdir.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/linux/7_rmdir.c.o
-.PHONY : linux/7_rmdir.c.o
+src/8_myls.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_myls.dir/build.make CMakeFiles/8_myls.dir/src/8_myls.c.o
+.PHONY : src/8_myls.c.o
 
-linux/7_rmdir.i: linux/7_rmdir.c.i
-.PHONY : linux/7_rmdir.i
-
-# target to preprocess a source file
-linux/7_rmdir.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/linux/7_rmdir.c.i
-.PHONY : linux/7_rmdir.c.i
-
-linux/7_rmdir.s: linux/7_rmdir.c.s
-.PHONY : linux/7_rmdir.s
-
-# target to generate assembly for a file
-linux/7_rmdir.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/linux/7_rmdir.c.s
-.PHONY : linux/7_rmdir.c.s
-
-src/5_chdir.o: src/5_chdir.c.o
-.PHONY : src/5_chdir.o
-
-# target to build an object file
-src/5_chdir.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/5_chdir.dir/build.make CMakeFiles/5_chdir.dir/src/5_chdir.c.o
-.PHONY : src/5_chdir.c.o
-
-src/5_chdir.i: src/5_chdir.c.i
-.PHONY : src/5_chdir.i
+src/8_myls.i: src/8_myls.c.i
+.PHONY : src/8_myls.i
 
 # target to preprocess a source file
-src/5_chdir.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/5_chdir.dir/build.make CMakeFiles/5_chdir.dir/src/5_chdir.c.i
-.PHONY : src/5_chdir.c.i
+src/8_myls.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_myls.dir/build.make CMakeFiles/8_myls.dir/src/8_myls.c.i
+.PHONY : src/8_myls.c.i
 
-src/5_chdir.s: src/5_chdir.c.s
-.PHONY : src/5_chdir.s
+src/8_myls.s: src/8_myls.c.s
+.PHONY : src/8_myls.s
 
 # target to generate assembly for a file
-src/5_chdir.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/5_chdir.dir/build.make CMakeFiles/5_chdir.dir/src/5_chdir.c.s
-.PHONY : src/5_chdir.c.s
+src/8_myls.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_myls.dir/build.make CMakeFiles/8_myls.dir/src/8_myls.c.s
+.PHONY : src/8_myls.c.s
 
 # Help Target
 help:
@@ -198,14 +161,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... 5_chdir"
-	@echo "... demo"
-	@echo "... linux/7_rmdir.o"
-	@echo "... linux/7_rmdir.i"
-	@echo "... linux/7_rmdir.s"
-	@echo "... src/5_chdir.o"
-	@echo "... src/5_chdir.i"
-	@echo "... src/5_chdir.s"
+	@echo "... 8_myls"
+	@echo "... src/8_myls.o"
+	@echo "... src/8_myls.i"
+	@echo "... src/8_myls.s"
 .PHONY : help
 
 
