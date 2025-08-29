@@ -4,7 +4,7 @@ int main()
     // ./4_getcwd.c
     // char path[1024] = {0};
     // char *p = getcwd(path, sizeof(path));
-    // ERROR_CHECK(path, NULL, "getcwd");
+    // ERROR_CHECK(path, NULL, "4_getcwd");
     // printf("cwd = %s\n", path);
 
     char *p = getcwd(NULL,0);

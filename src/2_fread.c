@@ -4,7 +4,7 @@ int main(int argc, char *argv[])
     // ./2_fread.c file1
     ARGS_CHECK(argc, 2);
     FILE *fp = fopen(argv[1], "r+");
-    ERROR_CHECK(fp, NULL, "guopeng");
+    ERROR_CHECK(fp, NULL, "2_fread");
 
     char buf[1024] = {0};
     /*fread会尝试从文件中读取sizeof(buf)字节的数据到buf中。

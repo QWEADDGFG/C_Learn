@@ -7,6 +7,6 @@ int main(int argc, char *argv[])
     // int ret = chmod(argv[1], 0755);
     // int ret = chmod(argv[1], 0664);
     int ret = chmod(argv[1], 0600);
-    ERROR_CHECK(ret, -1, "chmod");
+    ERROR_CHECK(ret, -1, "3_chmod");
     return 0;
 }

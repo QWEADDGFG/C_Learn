@@ -12,6 +12,6 @@ int main(int argc, char *argv[])
     //     perror("fopen 1");
     //     return -1;
     // }
-    ERROR_CHECK(fp, NULL, "guopeng");
+    ERROR_CHECK(fp, NULL, "1_fopen");
     return 0;
 }
