@@ -21,7 +21,9 @@ set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 # add_executable(3_chmod src/3_chmod.c)
 # add_executable(4_getcwd src/4_getcwd.c)
 # add_executable(7_rmdir src/7_rmdir.c)
-add_executable(8_myls src/8_myls.c)
+# add_executable(8_myls src/8_myls.c)
+# add_executable(tree src/tree.c)
+add_executable(9_myls_al src/9_myls_al.c)
 
 # 成绩转换程序
 # add_executable(grade_converter src/grade_converter.cpp)
