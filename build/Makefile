@@ -117,41 +117,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named 3_read
+# Target rules for targets named 4_read_stdin
 
 # Build rule for target.
-3_read: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3_read
-.PHONY : 3_read
+4_read_stdin: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 4_read_stdin
+.PHONY : 4_read_stdin
 
 # fast build rule for target.
-3_read/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3_read.dir/build.make CMakeFiles/3_read.dir/build
-.PHONY : 3_read/fast
+4_read_stdin/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4_read_stdin.dir/build.make CMakeFiles/4_read_stdin.dir/build
+.PHONY : 4_read_stdin/fast
 
-src/3_read.o: src/3_read.c.o
-.PHONY : src/3_read.o
+src/4_read_stdin.o: src/4_read_stdin.c.o
+.PHONY : src/4_read_stdin.o
 
 # target to build an object file
-src/3_read.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3_read.dir/build.make CMakeFiles/3_read.dir/src/3_read.c.o
-.PHONY : src/3_read.c.o
+src/4_read_stdin.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4_read_stdin.dir/build.make CMakeFiles/4_read_stdin.dir/src/4_read_stdin.c.o
+.PHONY : src/4_read_stdin.c.o
 
-src/3_read.i: src/3_read.c.i
-.PHONY : src/3_read.i
+src/4_read_stdin.i: src/4_read_stdin.c.i
+.PHONY : src/4_read_stdin.i
 
 # target to preprocess a source file
-src/3_read.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3_read.dir/build.make CMakeFiles/3_read.dir/src/3_read.c.i
-.PHONY : src/3_read.c.i
+src/4_read_stdin.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4_read_stdin.dir/build.make CMakeFiles/4_read_stdin.dir/src/4_read_stdin.c.i
+.PHONY : src/4_read_stdin.c.i
 
-src/3_read.s: src/3_read.c.s
-.PHONY : src/3_read.s
+src/4_read_stdin.s: src/4_read_stdin.c.s
+.PHONY : src/4_read_stdin.s
 
 # target to generate assembly for a file
-src/3_read.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3_read.dir/build.make CMakeFiles/3_read.dir/src/3_read.c.s
-.PHONY : src/3_read.c.s
+src/4_read_stdin.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4_read_stdin.dir/build.make CMakeFiles/4_read_stdin.dir/src/4_read_stdin.c.s
+.PHONY : src/4_read_stdin.c.s
 
 # Help Target
 help:
@@ -161,10 +161,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... 3_read"
-	@echo "... src/3_read.o"
-	@echo "... src/3_read.i"
-	@echo "... src/3_read.s"
+	@echo "... 4_read_stdin"
+	@echo "... src/4_read_stdin.o"
+	@echo "... src/4_read_stdin.i"
+	@echo "... src/4_read_stdin.s"
 .PHONY : help
 
 
