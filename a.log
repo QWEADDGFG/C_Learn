@@ -1,0 +1,7 @@
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/HwHiAiUser/gp/C_C++/C_Learn/build
+Consolidate compiler generated dependencies of target 12_dup
+[ 50%] Building C object CMakeFiles/12_dup.dir/src/12_dup.c.o
+[100%] Linking C executable ../bin/12_dup
+[100%] Built target 12_dup

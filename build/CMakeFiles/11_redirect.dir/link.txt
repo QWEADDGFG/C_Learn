@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/11_redirect.dir/src/11_redirect.c.o -o ../bin/11_redirect 
