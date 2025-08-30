@@ -13,7 +13,7 @@ set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 
 # 原始demo程序
 # add_executable(demo src/main.c)
-add_executable(4_read_stdin src/4_read_stdin.c)
+add_executable(to_up_rw src/to_up_rw.c)
 
 # 成绩转换程序
 # add_executable(grade_converter src/grade_converter.cpp)

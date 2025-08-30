@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/5_write.dir/src/5_write.c.o -o ../bin/5_write 

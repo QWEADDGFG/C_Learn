@@ -11,6 +11,12 @@
         "string_view": "cpp",
         "initializer_list": "cpp",
         "fun.h": "c",
-        "fstream": "c"
+        "fstream": "c",
+        "math.h": "c",
+        "ratio": "c",
+        "mman.h": "c",
+        "chrono": "c",
+        "algorithm": "c",
+        "random": "c"
     }
 }

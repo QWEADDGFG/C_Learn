@@ -117,41 +117,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named 4_read_stdin
+# Target rules for targets named to_up_rw
 
 # Build rule for target.
-4_read_stdin: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 4_read_stdin
-.PHONY : 4_read_stdin
+to_up_rw: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 to_up_rw
+.PHONY : to_up_rw
 
 # fast build rule for target.
-4_read_stdin/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4_read_stdin.dir/build.make CMakeFiles/4_read_stdin.dir/build
-.PHONY : 4_read_stdin/fast
+to_up_rw/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/to_up_rw.dir/build.make CMakeFiles/to_up_rw.dir/build
+.PHONY : to_up_rw/fast
 
-src/4_read_stdin.o: src/4_read_stdin.c.o
-.PHONY : src/4_read_stdin.o
+src/to_up_rw.o: src/to_up_rw.c.o
+.PHONY : src/to_up_rw.o
 
 # target to build an object file
-src/4_read_stdin.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4_read_stdin.dir/build.make CMakeFiles/4_read_stdin.dir/src/4_read_stdin.c.o
-.PHONY : src/4_read_stdin.c.o
+src/to_up_rw.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/to_up_rw.dir/build.make CMakeFiles/to_up_rw.dir/src/to_up_rw.c.o
+.PHONY : src/to_up_rw.c.o
 
-src/4_read_stdin.i: src/4_read_stdin.c.i
-.PHONY : src/4_read_stdin.i
+src/to_up_rw.i: src/to_up_rw.c.i
+.PHONY : src/to_up_rw.i
 
 # target to preprocess a source file
-src/4_read_stdin.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4_read_stdin.dir/build.make CMakeFiles/4_read_stdin.dir/src/4_read_stdin.c.i
-.PHONY : src/4_read_stdin.c.i
+src/to_up_rw.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/to_up_rw.dir/build.make CMakeFiles/to_up_rw.dir/src/to_up_rw.c.i
+.PHONY : src/to_up_rw.c.i
 
-src/4_read_stdin.s: src/4_read_stdin.c.s
-.PHONY : src/4_read_stdin.s
+src/to_up_rw.s: src/to_up_rw.c.s
+.PHONY : src/to_up_rw.s
 
 # target to generate assembly for a file
-src/4_read_stdin.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4_read_stdin.dir/build.make CMakeFiles/4_read_stdin.dir/src/4_read_stdin.c.s
-.PHONY : src/4_read_stdin.c.s
+src/to_up_rw.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/to_up_rw.dir/build.make CMakeFiles/to_up_rw.dir/src/to_up_rw.c.s
+.PHONY : src/to_up_rw.c.s
 
 # Help Target
 help:
@@ -161,10 +161,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... 4_read_stdin"
-	@echo "... src/4_read_stdin.o"
-	@echo "... src/4_read_stdin.i"
-	@echo "... src/4_read_stdin.s"
+	@echo "... to_up_rw"
+	@echo "... src/to_up_rw.o"
+	@echo "... src/to_up_rw.i"
+	@echo "... src/to_up_rw.s"
 .PHONY : help
 
 
