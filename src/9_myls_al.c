@@ -22,12 +22,23 @@ int main(int argc, char *argv[])
 
         // 打印文件信息，getpwuid
         printf("%o, %d, %d, %d, %s, %ld, %s\n", statbuf.st_mode,
-               statbuf.st_nlink, statbuf.st_uid, statbuf.st_gid, 
-            //    ctime(&statbuf.st_mtime),
+               statbuf.st_nlink, statbuf.st_uid, statbuf.st_gid,
+               //    ctime(&statbuf.st_mtime),
                localtime(&statbuf.st_mtime),
                statbuf.st_size, pdirent->d_name);
     }
 
-    closedir(dirp); 
+    closedir(dirp);
     return 0;
 }
+
+// int main(int argc, char *argv[])
+// {
+//     ARGS_CHECK(argc, 2);
+//     int ret;
+//     struct stat buf;
+//     ret = stat(argv[1], &buf);
+//     ERROR_CHECK(ret, -1, "stat");
+//     printf("%x %ld %s %s %ld %s\n", buf.st_mode, buf.st_nlink, getpwuid(buf.st_uid)->pw_name, getgrgid(buf.st_gid)->gr_name, buf.st_size, ctime(&buf.st_mtime));
+//     return 0;
+// }
