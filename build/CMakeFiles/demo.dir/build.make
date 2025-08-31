@@ -69,28 +69,28 @@ include CMakeFiles/demo.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/demo.dir/flags.make
 
-CMakeFiles/demo.dir/linux/7_rmdir.c.o: CMakeFiles/demo.dir/flags.make
-CMakeFiles/demo.dir/linux/7_rmdir.c.o: ../linux/7_rmdir.c
-CMakeFiles/demo.dir/linux/7_rmdir.c.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/HwHiAiUser/gp/C_C++/C_Learn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/demo.dir/linux/7_rmdir.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/demo.dir/linux/7_rmdir.c.o -MF CMakeFiles/demo.dir/linux/7_rmdir.c.o.d -o CMakeFiles/demo.dir/linux/7_rmdir.c.o -c /home/HwHiAiUser/gp/C_C++/C_Learn/linux/7_rmdir.c
+CMakeFiles/demo.dir/src/0_homework.c.o: CMakeFiles/demo.dir/flags.make
+CMakeFiles/demo.dir/src/0_homework.c.o: ../src/0_homework.c
+CMakeFiles/demo.dir/src/0_homework.c.o: CMakeFiles/demo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/HwHiAiUser/gp/C_C++/C_Learn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/demo.dir/src/0_homework.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/demo.dir/src/0_homework.c.o -MF CMakeFiles/demo.dir/src/0_homework.c.o.d -o CMakeFiles/demo.dir/src/0_homework.c.o -c /home/HwHiAiUser/gp/C_C++/C_Learn/src/0_homework.c
 
-CMakeFiles/demo.dir/linux/7_rmdir.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/demo.dir/linux/7_rmdir.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/HwHiAiUser/gp/C_C++/C_Learn/linux/7_rmdir.c > CMakeFiles/demo.dir/linux/7_rmdir.c.i
+CMakeFiles/demo.dir/src/0_homework.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/demo.dir/src/0_homework.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/HwHiAiUser/gp/C_C++/C_Learn/src/0_homework.c > CMakeFiles/demo.dir/src/0_homework.c.i
 
-CMakeFiles/demo.dir/linux/7_rmdir.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/demo.dir/linux/7_rmdir.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/HwHiAiUser/gp/C_C++/C_Learn/linux/7_rmdir.c -o CMakeFiles/demo.dir/linux/7_rmdir.c.s
+CMakeFiles/demo.dir/src/0_homework.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/demo.dir/src/0_homework.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/HwHiAiUser/gp/C_C++/C_Learn/src/0_homework.c -o CMakeFiles/demo.dir/src/0_homework.c.s
 
 # Object files for target demo
 demo_OBJECTS = \
-"CMakeFiles/demo.dir/linux/7_rmdir.c.o"
+"CMakeFiles/demo.dir/src/0_homework.c.o"
 
 # External object files for target demo
 demo_EXTERNAL_OBJECTS =
 
-../bin/demo: CMakeFiles/demo.dir/linux/7_rmdir.c.o
+../bin/demo: CMakeFiles/demo.dir/src/0_homework.c.o
 ../bin/demo: CMakeFiles/demo.dir/build.make
 ../bin/demo: CMakeFiles/demo.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/HwHiAiUser/gp/C_C++/C_Learn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable ../bin/demo"

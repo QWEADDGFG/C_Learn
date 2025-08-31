@@ -1,3 +1,4 @@
-/home/HwHiAiUser/gp/C_C++/C_Learn/build/CMakeFiles/13_du_redirect.dir
+/home/HwHiAiUser/gp/C_C++/C_Learn/build/CMakeFiles/2_chat_AQ.dir
+/home/HwHiAiUser/gp/C_C++/C_Learn/build/CMakeFiles/2_chat_AZ.dir
 /home/HwHiAiUser/gp/C_C++/C_Learn/build/CMakeFiles/edit_cache.dir
 /home/HwHiAiUser/gp/C_C++/C_Learn/build/CMakeFiles/rebuild_cache.dir

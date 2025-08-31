@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/HwHiAiUser/gp/C_C++/C_Learn/linux/7_rmdir.c" "CMakeFiles/demo.dir/linux/7_rmdir.c.o" "gcc" "CMakeFiles/demo.dir/linux/7_rmdir.c.o.d"
+  "/home/HwHiAiUser/gp/C_C++/C_Learn/src/0_homework.c" "CMakeFiles/demo.dir/src/0_homework.c.o" "gcc" "CMakeFiles/demo.dir/src/0_homework.c.o.d"
   )
 
 # Targets to which this target links.

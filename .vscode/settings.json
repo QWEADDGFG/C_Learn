@@ -63,6 +63,9 @@
         "streambuf": "c",
         "thread": "c",
         "cinttypes": "c",
-        "typeinfo": "c"
+        "typeinfo": "c",
+        "stdio.h": "c",
+        "select.h": "c",
+        "types.h": "c"
     }
 }

@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/1_A.dir/src/1_A.c.o -o ../bin/1_A 
