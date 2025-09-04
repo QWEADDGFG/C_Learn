@@ -1,15 +1,25 @@
-# chmod +x git.sh
-# 1.将所有的项目代码文件上传到暂存区
+#!/bin/bash
+
+set -e  # 出错就退出
+
+msg="update $(date +'%Y%m%d %H:%M:%S')"
+if [ -n "$1" ]; then
+  msg="$1"
+fi
+
+echo "[INFO] 清空缓存（unstage 所有已暂存的更改）..."
+git reset
+
+echo "[INFO] 添加所有更改"
 git add .
-# 2.查看当前git的状态
-git status
-# 3.将暂存区的文件进行commit
-git commit -m "add some test code 20250827"
-git remote -v
-# ４.把本地仓库的变化连接到远程仓库主分支
-git pull origin main --allow-unrelated-histories
-# 5.使用push指令进行上传,
+
+echo "[INFO] 提交: $msg"
+git commit -m "$msg" || echo "[WARN] 没有更改需要提交"
+
+echo "[INFO] 同步远程最新代码..."
+git pull --rebase origin main
+
+echo "[INFO] 推送到远端 main 分支..."
 git push origin main
 
-
-# git pull origin main
+echo "[INFO] ✅ 推送完成"

@@ -13,8 +13,8 @@ set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 # )
 
 # 原始demo程序
-add_executable(2_chat_AQ src/2_chat_AQ.c)
-add_executable(2_chat_AZ src/2_chat_AZ.c)
+add_executable(1_a src/1_a.c)
+add_executable(1_b src/1_b.c)
 
 # 成绩转换程序
 # add_executable(grade_converter src/grade_converter.cpp)
