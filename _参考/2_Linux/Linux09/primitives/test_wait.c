@@ -1,0 +1,46 @@
+#include <func.h>
+
+void print_wstatus(int status) {
+    if (WIFEXITED(status)) {
+        int exit_code = WEXITSTATUS(status);
+        printf("exit_code = %d", exit_code);
+    } else if (WIFSIGNALED(status)) {
+        int signo = WTERMSIG(status);
+        printf("term_sig = %d", signo);
+#ifdef WCOREDUMP
+        if (WCOREDUMP(status)) {
+            printf(" (core dump)");
+        }
+#endif
+    }
+    printf("\n");
+}
+
+int main(int argc, char* argv[])
+{
+    pid_t pid = fork();
+    switch (pid) {
+    case -1:
+        error(1, errno, "fork");
+    case 0:
+        // 子进程
+        printf("CHILD: pid = %d\n", getpid());
+        // sleep(2);
+        // return 123;
+        // exit(96);
+        // _exit(9);
+        // abort();
+        while (1);
+    default:
+        // 父进程
+        int status; // 保存子进程的终止状态信息, 位图。
+        pid_t childPid = wait(&status); // 阻塞点：一直等待，直到有子进程终止
+        if (childPid > 0) {
+            printf("PARENT: %d terminated\n", childPid);
+            print_wstatus(status);
+        }
+        exit(0);
+    }
+    return 0;
+}
+
