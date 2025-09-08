@@ -43,5 +43,7 @@ typedef void (*sighandler_t)(int);
     }}
 
 
+#define THREAD_CHECK(ret, msg) {if(ret != 0) {fprintf(stderr,"%s:%s\n",msg,strerror(ret));}}
+
 #endif
 

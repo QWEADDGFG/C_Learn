@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/5_node.dir/src/5_node.c.o -o ../bin/5_node 

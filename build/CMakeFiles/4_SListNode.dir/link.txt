@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/4_SListNode.dir/src/4_SListNode.c.o -o ../bin/4_SListNode 
