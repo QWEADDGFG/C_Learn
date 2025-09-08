@@ -117,41 +117,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named 6_cnode
+# Target rules for targets named 7_homework
 
 # Build rule for target.
-6_cnode: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 6_cnode
-.PHONY : 6_cnode
+7_homework: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 7_homework
+.PHONY : 7_homework
 
 # fast build rule for target.
-6_cnode/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_cnode.dir/build.make CMakeFiles/6_cnode.dir/build
-.PHONY : 6_cnode/fast
+7_homework/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_homework.dir/build.make CMakeFiles/7_homework.dir/build
+.PHONY : 7_homework/fast
 
-src/6_cnode.o: src/6_cnode.c.o
-.PHONY : src/6_cnode.o
+src/7_homework.o: src/7_homework.c.o
+.PHONY : src/7_homework.o
 
 # target to build an object file
-src/6_cnode.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_cnode.dir/build.make CMakeFiles/6_cnode.dir/src/6_cnode.c.o
-.PHONY : src/6_cnode.c.o
+src/7_homework.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_homework.dir/build.make CMakeFiles/7_homework.dir/src/7_homework.c.o
+.PHONY : src/7_homework.c.o
 
-src/6_cnode.i: src/6_cnode.c.i
-.PHONY : src/6_cnode.i
+src/7_homework.i: src/7_homework.c.i
+.PHONY : src/7_homework.i
 
 # target to preprocess a source file
-src/6_cnode.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_cnode.dir/build.make CMakeFiles/6_cnode.dir/src/6_cnode.c.i
-.PHONY : src/6_cnode.c.i
+src/7_homework.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_homework.dir/build.make CMakeFiles/7_homework.dir/src/7_homework.c.i
+.PHONY : src/7_homework.c.i
 
-src/6_cnode.s: src/6_cnode.c.s
-.PHONY : src/6_cnode.s
+src/7_homework.s: src/7_homework.c.s
+.PHONY : src/7_homework.s
 
 # target to generate assembly for a file
-src/6_cnode.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_cnode.dir/build.make CMakeFiles/6_cnode.dir/src/6_cnode.c.s
-.PHONY : src/6_cnode.c.s
+src/7_homework.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_homework.dir/build.make CMakeFiles/7_homework.dir/src/7_homework.c.s
+.PHONY : src/7_homework.c.s
 
 # Help Target
 help:
@@ -161,10 +161,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... 6_cnode"
-	@echo "... src/6_cnode.o"
-	@echo "... src/6_cnode.i"
-	@echo "... src/6_cnode.s"
+	@echo "... 7_homework"
+	@echo "... src/7_homework.o"
+	@echo "... src/7_homework.i"
+	@echo "... src/7_homework.s"
 .PHONY : help
 
 

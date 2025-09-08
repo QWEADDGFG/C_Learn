@@ -11,8 +11,9 @@ int main()
 
     for (size_t i = 0; i < n; i++)
     {
-        printf("%.2lf\n", a[i]);
+        printf("%.2lf ", a[i]);
     }
+    printf("\n");
     return 0;
 }
 int compare(const void *p1, const void *p2)
