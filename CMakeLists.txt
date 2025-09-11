@@ -10,10 +10,10 @@ find_package(Threads REQUIRED)
 # 编译两个可执行文件
 # add_executable(1_a src/1_a.c)
 # add_executable(1_b src/1_b.c)
-add_executable(7_homework src/7_homework.c)
+add_executable(1_sell src/1_sell.c)
 
 # 链接 pthread
-target_link_libraries(7_homework Threads::Threads)
+target_link_libraries(1_sell Threads::Threads)
 
 
 # 调试信息

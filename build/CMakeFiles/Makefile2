@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /home/HwHiAiUser/gp/C_C++/C_Learn/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/7_homework.dir/all
+all: CMakeFiles/1_sell.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/7_homework.dir/clean
+clean: CMakeFiles/1_sell.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/7_homework.dir
+# Target rules for target CMakeFiles/1_sell.dir
 
 # All Build rule for target.
-CMakeFiles/7_homework.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_homework.dir/build.make CMakeFiles/7_homework.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_homework.dir/build.make CMakeFiles/7_homework.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/HwHiAiUser/gp/C_C++/C_Learn/build/CMakeFiles --progress-num=1,2 "Built target 7_homework"
-.PHONY : CMakeFiles/7_homework.dir/all
+CMakeFiles/1_sell.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1_sell.dir/build.make CMakeFiles/1_sell.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1_sell.dir/build.make CMakeFiles/1_sell.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/HwHiAiUser/gp/C_C++/C_Learn/build/CMakeFiles --progress-num=1,2 "Built target 1_sell"
+.PHONY : CMakeFiles/1_sell.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/7_homework.dir/rule: cmake_check_build_system
+CMakeFiles/1_sell.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/HwHiAiUser/gp/C_C++/C_Learn/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/7_homework.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/1_sell.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/HwHiAiUser/gp/C_C++/C_Learn/build/CMakeFiles 0
-.PHONY : CMakeFiles/7_homework.dir/rule
+.PHONY : CMakeFiles/1_sell.dir/rule
 
 # Convenience name for target.
-7_homework: CMakeFiles/7_homework.dir/rule
-.PHONY : 7_homework
+1_sell: CMakeFiles/1_sell.dir/rule
+.PHONY : 1_sell
 
 # clean rule for target.
-CMakeFiles/7_homework.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_homework.dir/build.make CMakeFiles/7_homework.dir/clean
-.PHONY : CMakeFiles/7_homework.dir/clean
+CMakeFiles/1_sell.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1_sell.dir/build.make CMakeFiles/1_sell.dir/clean
+.PHONY : CMakeFiles/1_sell.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

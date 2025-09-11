@@ -117,41 +117,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named 7_homework
+# Target rules for targets named 1_sell
 
 # Build rule for target.
-7_homework: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 7_homework
-.PHONY : 7_homework
+1_sell: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 1_sell
+.PHONY : 1_sell
 
 # fast build rule for target.
-7_homework/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_homework.dir/build.make CMakeFiles/7_homework.dir/build
-.PHONY : 7_homework/fast
+1_sell/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1_sell.dir/build.make CMakeFiles/1_sell.dir/build
+.PHONY : 1_sell/fast
 
-src/7_homework.o: src/7_homework.c.o
-.PHONY : src/7_homework.o
+src/1_sell.o: src/1_sell.c.o
+.PHONY : src/1_sell.o
 
 # target to build an object file
-src/7_homework.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_homework.dir/build.make CMakeFiles/7_homework.dir/src/7_homework.c.o
-.PHONY : src/7_homework.c.o
+src/1_sell.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1_sell.dir/build.make CMakeFiles/1_sell.dir/src/1_sell.c.o
+.PHONY : src/1_sell.c.o
 
-src/7_homework.i: src/7_homework.c.i
-.PHONY : src/7_homework.i
+src/1_sell.i: src/1_sell.c.i
+.PHONY : src/1_sell.i
 
 # target to preprocess a source file
-src/7_homework.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_homework.dir/build.make CMakeFiles/7_homework.dir/src/7_homework.c.i
-.PHONY : src/7_homework.c.i
+src/1_sell.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1_sell.dir/build.make CMakeFiles/1_sell.dir/src/1_sell.c.i
+.PHONY : src/1_sell.c.i
 
-src/7_homework.s: src/7_homework.c.s
-.PHONY : src/7_homework.s
+src/1_sell.s: src/1_sell.c.s
+.PHONY : src/1_sell.s
 
 # target to generate assembly for a file
-src/7_homework.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_homework.dir/build.make CMakeFiles/7_homework.dir/src/7_homework.c.s
-.PHONY : src/7_homework.c.s
+src/1_sell.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1_sell.dir/build.make CMakeFiles/1_sell.dir/src/1_sell.c.s
+.PHONY : src/1_sell.c.s
 
 # Help Target
 help:
@@ -161,10 +161,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... 7_homework"
-	@echo "... src/7_homework.o"
-	@echo "... src/7_homework.i"
-	@echo "... src/7_homework.s"
+	@echo "... 1_sell"
+	@echo "... src/1_sell.o"
+	@echo "... src/1_sell.i"
+	@echo "... src/1_sell.s"
 .PHONY : help
 
 
