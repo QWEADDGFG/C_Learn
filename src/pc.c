@@ -80,16 +80,16 @@ int visitQueue(queue_t *pQueue) // 遍历队列
 //     }
 //     printf("---------------------------\n");
 //     for (int i = 0; i < 5; i++)
-
 //     {
 //         int head = myQueue.pHead->data;
 //         printf("dequeue %d\n", head);
 //         deQueue(&myQueue);    // 出队
 //         visitQueue(&myQueue); // 打印队列
 //     }
-
 //     return 0;
 // }
+
+/*生产者线程*/
 void *producer(void *arg)
 {
     shareRes_t *pShareRes = (shareRes_t *)arg;
@@ -110,7 +110,7 @@ void *producer(void *arg)
         sleep(3);
     }
 }
-
+/*消费者线程*/
 void *consumer(void *arg)
 {
     shareRes_t *pShareRes = (shareRes_t *)arg;
