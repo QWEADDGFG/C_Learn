@@ -117,41 +117,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named 1_sell
+# Target rules for targets named 2_flag
 
 # Build rule for target.
-1_sell: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 1_sell
-.PHONY : 1_sell
+2_flag: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 2_flag
+.PHONY : 2_flag
 
 # fast build rule for target.
-1_sell/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1_sell.dir/build.make CMakeFiles/1_sell.dir/build
-.PHONY : 1_sell/fast
+2_flag/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_flag.dir/build.make CMakeFiles/2_flag.dir/build
+.PHONY : 2_flag/fast
 
-src/1_sell.o: src/1_sell.c.o
-.PHONY : src/1_sell.o
+src/2_flag.o: src/2_flag.c.o
+.PHONY : src/2_flag.o
 
 # target to build an object file
-src/1_sell.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1_sell.dir/build.make CMakeFiles/1_sell.dir/src/1_sell.c.o
-.PHONY : src/1_sell.c.o
+src/2_flag.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_flag.dir/build.make CMakeFiles/2_flag.dir/src/2_flag.c.o
+.PHONY : src/2_flag.c.o
 
-src/1_sell.i: src/1_sell.c.i
-.PHONY : src/1_sell.i
+src/2_flag.i: src/2_flag.c.i
+.PHONY : src/2_flag.i
 
 # target to preprocess a source file
-src/1_sell.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1_sell.dir/build.make CMakeFiles/1_sell.dir/src/1_sell.c.i
-.PHONY : src/1_sell.c.i
+src/2_flag.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_flag.dir/build.make CMakeFiles/2_flag.dir/src/2_flag.c.i
+.PHONY : src/2_flag.c.i
 
-src/1_sell.s: src/1_sell.c.s
-.PHONY : src/1_sell.s
+src/2_flag.s: src/2_flag.c.s
+.PHONY : src/2_flag.s
 
 # target to generate assembly for a file
-src/1_sell.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1_sell.dir/build.make CMakeFiles/1_sell.dir/src/1_sell.c.s
-.PHONY : src/1_sell.c.s
+src/2_flag.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_flag.dir/build.make CMakeFiles/2_flag.dir/src/2_flag.c.s
+.PHONY : src/2_flag.c.s
 
 # Help Target
 help:
@@ -161,10 +161,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... 1_sell"
-	@echo "... src/1_sell.o"
-	@echo "... src/1_sell.i"
-	@echo "... src/1_sell.s"
+	@echo "... 2_flag"
+	@echo "... src/2_flag.o"
+	@echo "... src/2_flag.i"
+	@echo "... src/2_flag.s"
 .PHONY : help
 
 
