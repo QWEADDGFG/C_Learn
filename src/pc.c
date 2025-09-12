@@ -110,6 +110,7 @@ void *producer(void *arg)
         sleep(3);
     }
 }
+
 void *consumer(void *arg)
 {
     shareRes_t *pShareRes = (shareRes_t *)arg;
@@ -131,6 +132,8 @@ void *consumer(void *arg)
         sleep(1);
     }
 }
+
+/*单元测试--生产者消费者模型*/
 int main(int argc, char *argv[])
 {
     shareRes_t shareRes;
