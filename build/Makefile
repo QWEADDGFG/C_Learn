@@ -117,41 +117,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named 2_flag
+# Target rules for targets named pc
 
 # Build rule for target.
-2_flag: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 2_flag
-.PHONY : 2_flag
+pc: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pc
+.PHONY : pc
 
 # fast build rule for target.
-2_flag/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_flag.dir/build.make CMakeFiles/2_flag.dir/build
-.PHONY : 2_flag/fast
+pc/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pc.dir/build.make CMakeFiles/pc.dir/build
+.PHONY : pc/fast
 
-src/2_flag.o: src/2_flag.c.o
-.PHONY : src/2_flag.o
+src/pc.o: src/pc.c.o
+.PHONY : src/pc.o
 
 # target to build an object file
-src/2_flag.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_flag.dir/build.make CMakeFiles/2_flag.dir/src/2_flag.c.o
-.PHONY : src/2_flag.c.o
+src/pc.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pc.dir/build.make CMakeFiles/pc.dir/src/pc.c.o
+.PHONY : src/pc.c.o
 
-src/2_flag.i: src/2_flag.c.i
-.PHONY : src/2_flag.i
+src/pc.i: src/pc.c.i
+.PHONY : src/pc.i
 
 # target to preprocess a source file
-src/2_flag.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_flag.dir/build.make CMakeFiles/2_flag.dir/src/2_flag.c.i
-.PHONY : src/2_flag.c.i
+src/pc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pc.dir/build.make CMakeFiles/pc.dir/src/pc.c.i
+.PHONY : src/pc.c.i
 
-src/2_flag.s: src/2_flag.c.s
-.PHONY : src/2_flag.s
+src/pc.s: src/pc.c.s
+.PHONY : src/pc.s
 
 # target to generate assembly for a file
-src/2_flag.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_flag.dir/build.make CMakeFiles/2_flag.dir/src/2_flag.c.s
-.PHONY : src/2_flag.c.s
+src/pc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pc.dir/build.make CMakeFiles/pc.dir/src/pc.c.s
+.PHONY : src/pc.c.s
 
 # Help Target
 help:
@@ -161,10 +161,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... 2_flag"
-	@echo "... src/2_flag.o"
-	@echo "... src/2_flag.i"
-	@echo "... src/2_flag.s"
+	@echo "... pc"
+	@echo "... src/pc.o"
+	@echo "... src/pc.i"
+	@echo "... src/pc.s"
 .PHONY : help
 
 
