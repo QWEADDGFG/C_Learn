@@ -10,10 +10,11 @@ find_package(Threads REQUIRED)
 # 编译两个可执行文件
 # add_executable(1_a src/1_a.c)
 # add_executable(1_b src/1_b.c)
-add_executable(pc src/pc.c)
+# add_executable(pc src/pc.c)
+add_executable(base src/base.cpp)
 
 # 链接 pthread
-target_link_libraries(pc Threads::Threads)
+# target_link_libraries(pc Threads::Threads)
 
 
 # 调试信息

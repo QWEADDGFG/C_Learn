@@ -117,41 +117,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named pc
+# Target rules for targets named base
 
 # Build rule for target.
-pc: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pc
-.PHONY : pc
+base: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 base
+.PHONY : base
 
 # fast build rule for target.
-pc/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pc.dir/build.make CMakeFiles/pc.dir/build
-.PHONY : pc/fast
+base/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/base.dir/build.make CMakeFiles/base.dir/build
+.PHONY : base/fast
 
-src/pc.o: src/pc.c.o
-.PHONY : src/pc.o
+src/base.o: src/base.cpp.o
+.PHONY : src/base.o
 
 # target to build an object file
-src/pc.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pc.dir/build.make CMakeFiles/pc.dir/src/pc.c.o
-.PHONY : src/pc.c.o
+src/base.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/base.dir/build.make CMakeFiles/base.dir/src/base.cpp.o
+.PHONY : src/base.cpp.o
 
-src/pc.i: src/pc.c.i
-.PHONY : src/pc.i
+src/base.i: src/base.cpp.i
+.PHONY : src/base.i
 
 # target to preprocess a source file
-src/pc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pc.dir/build.make CMakeFiles/pc.dir/src/pc.c.i
-.PHONY : src/pc.c.i
+src/base.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/base.dir/build.make CMakeFiles/base.dir/src/base.cpp.i
+.PHONY : src/base.cpp.i
 
-src/pc.s: src/pc.c.s
-.PHONY : src/pc.s
+src/base.s: src/base.cpp.s
+.PHONY : src/base.s
 
 # target to generate assembly for a file
-src/pc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pc.dir/build.make CMakeFiles/pc.dir/src/pc.c.s
-.PHONY : src/pc.c.s
+src/base.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/base.dir/build.make CMakeFiles/base.dir/src/base.cpp.s
+.PHONY : src/base.cpp.s
 
 # Help Target
 help:
@@ -161,10 +161,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... pc"
-	@echo "... src/pc.o"
-	@echo "... src/pc.i"
-	@echo "... src/pc.s"
+	@echo "... base"
+	@echo "... src/base.o"
+	@echo "... src/base.i"
+	@echo "... src/base.s"
 .PHONY : help
 
 
