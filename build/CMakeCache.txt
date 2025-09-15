@@ -218,6 +218,9 @@ demo_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 demo_SOURCE_DIR:STATIC=/home/HwHiAiUser/gp/C_C++/C_Learn
 
+//The directory containing a CMake configuration file for fmt.
+fmt_DIR:PATH=/usr/lib/aarch64-linux-gnu/cmake/fmt
+
 
 ########################
 # INTERNAL cache entries

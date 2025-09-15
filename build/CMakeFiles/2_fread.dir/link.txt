@@ -1,1 +1,0 @@
-/usr/bin/cc -g CMakeFiles/2_fread.dir/src/2_fread.c.o -o ../bin/2_fread 

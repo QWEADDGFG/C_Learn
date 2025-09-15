@@ -1,1 +1,0 @@
-/usr/bin/cc -g CMakeFiles/6_cnode.dir/src/6_cnode.c.o -o ../bin/6_cnode 

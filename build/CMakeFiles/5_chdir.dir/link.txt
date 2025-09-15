@@ -1,1 +1,0 @@
-/usr/bin/cc -g CMakeFiles/5_chdir.dir/src/5_chdir.c.o -o ../bin/5_chdir 

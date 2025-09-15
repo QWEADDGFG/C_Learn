@@ -1,1 +1,0 @@
-/usr/bin/cc -g CMakeFiles/3_chmod.dir/src/3_chmod.c.o -o ../bin/3_chmod 

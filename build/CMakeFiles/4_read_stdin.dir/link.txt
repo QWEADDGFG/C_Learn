@@ -1,1 +1,0 @@
-/usr/bin/cc -g CMakeFiles/4_read_stdin.dir/src/4_read_stdin.c.o -o ../bin/4_read_stdin 

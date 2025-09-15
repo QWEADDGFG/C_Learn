@@ -1,1 +1,0 @@
-/usr/bin/cc -g CMakeFiles/to_up.dir/src/to_up.c.o -o ../bin/to_up 

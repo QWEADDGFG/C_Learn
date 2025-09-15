@@ -1,0 +1,3 @@
+/home/HwHiAiUser/gp/C_C++/C_Learn/CMakeFiles/base.dir
+/home/HwHiAiUser/gp/C_C++/C_Learn/CMakeFiles/edit_cache.dir
+/home/HwHiAiUser/gp/C_C++/C_Learn/CMakeFiles/rebuild_cache.dir

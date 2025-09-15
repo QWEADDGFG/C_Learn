@@ -1,1 +1,0 @@
-/usr/bin/cc -g CMakeFiles/7_homework.dir/src/7_homework.c.o -o ../bin/7_homework 

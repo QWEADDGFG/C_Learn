@@ -1,1 +1,0 @@
-/usr/bin/cc -g CMakeFiles/2_flag.dir/src/2_flag.c.o -o ../bin/2_flag 

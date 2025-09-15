@@ -1,1 +1,0 @@
-/usr/bin/c++ -g CMakeFiles/grade_converter.dir/src/grade_converter.cpp.o -o ../bin/grade_converter 

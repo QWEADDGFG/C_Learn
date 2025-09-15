@@ -1,0 +1,1 @@
+/usr/bin/g++-12 -g CMakeFiles/base.dir/src/base.cpp.o -o bin/base 

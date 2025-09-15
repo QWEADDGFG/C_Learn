@@ -1,1 +1,0 @@
-/usr/bin/cc -g CMakeFiles/qsort_demo.dir/src/qsort_demo.c.o -o ../bin/qsort_demo 

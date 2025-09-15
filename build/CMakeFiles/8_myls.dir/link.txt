@@ -1,1 +1,0 @@
-/usr/bin/cc -g CMakeFiles/8_myls.dir/src/8_myls.c.o -o ../bin/8_myls 

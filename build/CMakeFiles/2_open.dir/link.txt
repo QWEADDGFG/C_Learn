@@ -1,1 +1,0 @@
-/usr/bin/cc -g CMakeFiles/2_open.dir/src/2_open.c.o -o ../bin/2_open 

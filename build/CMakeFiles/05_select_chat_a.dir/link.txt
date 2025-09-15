@@ -1,1 +1,0 @@
-/usr/bin/cc -g CMakeFiles/05_select_chat_a.dir/src/05_select_chat_a.c.o -o ../bin/05_select_chat_a 

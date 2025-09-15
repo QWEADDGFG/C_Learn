@@ -1,21 +1,28 @@
 cmake_minimum_required(VERSION 3.10)
+# set(CMAKE_CXX_STANDARD 20)
+# set(CMAKE_CXX_STANDARD_REQUIRED ON)
 project(demo)
 
 include_directories(${PROJECT_SOURCE_DIR}/include)
 set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 
-# 找到 pthread
+# 找到 pthread 库、 fmt 库
 find_package(Threads REQUIRED)
+find_package(fmt REQUIRED)     
 
 # 编译两个可执行文件
 # add_executable(1_a src/1_a.c)
 # add_executable(1_b src/1_b.c)
 # add_executable(pc src/pc.c)
-add_executable(base src/base.cpp)
+add_executable(for src/for.cpp)
+# target_compile_features(base PRIVATE cxx_std_20)
+
 
 # 链接 pthread
 # target_link_libraries(pc Threads::Threads)
 
+# 链接 fmt
+target_link_libraries(for fmt::fmt) 
 
 # 调试信息
 set(CMAKE_BUILD_TYPE Debug)

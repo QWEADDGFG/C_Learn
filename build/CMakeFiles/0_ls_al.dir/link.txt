@@ -1,1 +1,0 @@
-/usr/bin/cc -g CMakeFiles/0_ls_al.dir/src/0_ls_al.c.o -o ../bin/0_ls_al 
