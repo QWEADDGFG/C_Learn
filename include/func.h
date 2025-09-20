@@ -25,6 +25,7 @@
 #include <sys/ioctl.h>
 #include <pthread.h>
 #include <sys/uio.h>
+#include<arpa/inet.h>
 
 #define SIZE(a) (sizeof(a)/sizeof(a[0]))
 
