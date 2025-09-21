@@ -4,11 +4,13 @@ project(demo)
 include_directories(${PROJECT_SOURCE_DIR}/include)
 set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 
-# 找到 pthread 库、 fmt 库
+# 找到 pthread 库
 find_package(Threads REQUIRED)
 
 # 编译两个可执行文件
-add_executable(demo src/2_getip.c)
+# add_executable(demo src/2_getip.c)
+add_executable(3_client src/3_client.c)
+add_executable(3_server src/3_server.c)
 
 # 链接 pthread
 # target_link_libraries(pc Threads::Threads)

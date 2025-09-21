@@ -117,41 +117,78 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named demo
+# Target rules for targets named 3_client
 
 # Build rule for target.
-demo: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 demo
-.PHONY : demo
+3_client: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3_client
+.PHONY : 3_client
 
 # fast build rule for target.
-demo/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/build
-.PHONY : demo/fast
+3_client/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3_client.dir/build.make CMakeFiles/3_client.dir/build
+.PHONY : 3_client/fast
 
-src/2_getip.o: src/2_getip.c.o
-.PHONY : src/2_getip.o
+#=============================================================================
+# Target rules for targets named 3_server
+
+# Build rule for target.
+3_server: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3_server
+.PHONY : 3_server
+
+# fast build rule for target.
+3_server/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3_server.dir/build.make CMakeFiles/3_server.dir/build
+.PHONY : 3_server/fast
+
+src/3_client.o: src/3_client.c.o
+.PHONY : src/3_client.o
 
 # target to build an object file
-src/2_getip.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/src/2_getip.c.o
-.PHONY : src/2_getip.c.o
+src/3_client.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3_client.dir/build.make CMakeFiles/3_client.dir/src/3_client.c.o
+.PHONY : src/3_client.c.o
 
-src/2_getip.i: src/2_getip.c.i
-.PHONY : src/2_getip.i
+src/3_client.i: src/3_client.c.i
+.PHONY : src/3_client.i
 
 # target to preprocess a source file
-src/2_getip.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/src/2_getip.c.i
-.PHONY : src/2_getip.c.i
+src/3_client.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3_client.dir/build.make CMakeFiles/3_client.dir/src/3_client.c.i
+.PHONY : src/3_client.c.i
 
-src/2_getip.s: src/2_getip.c.s
-.PHONY : src/2_getip.s
+src/3_client.s: src/3_client.c.s
+.PHONY : src/3_client.s
 
 # target to generate assembly for a file
-src/2_getip.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/src/2_getip.c.s
-.PHONY : src/2_getip.c.s
+src/3_client.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3_client.dir/build.make CMakeFiles/3_client.dir/src/3_client.c.s
+.PHONY : src/3_client.c.s
+
+src/3_server.o: src/3_server.c.o
+.PHONY : src/3_server.o
+
+# target to build an object file
+src/3_server.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3_server.dir/build.make CMakeFiles/3_server.dir/src/3_server.c.o
+.PHONY : src/3_server.c.o
+
+src/3_server.i: src/3_server.c.i
+.PHONY : src/3_server.i
+
+# target to preprocess a source file
+src/3_server.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3_server.dir/build.make CMakeFiles/3_server.dir/src/3_server.c.i
+.PHONY : src/3_server.c.i
+
+src/3_server.s: src/3_server.c.s
+.PHONY : src/3_server.s
+
+# target to generate assembly for a file
+src/3_server.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3_server.dir/build.make CMakeFiles/3_server.dir/src/3_server.c.s
+.PHONY : src/3_server.c.s
 
 # Help Target
 help:
@@ -161,10 +198,14 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... demo"
-	@echo "... src/2_getip.o"
-	@echo "... src/2_getip.i"
-	@echo "... src/2_getip.s"
+	@echo "... 3_client"
+	@echo "... 3_server"
+	@echo "... src/3_client.o"
+	@echo "... src/3_client.i"
+	@echo "... src/3_client.s"
+	@echo "... src/3_server.o"
+	@echo "... src/3_server.i"
+	@echo "... src/3_server.s"
 .PHONY : help
 
 

@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/3_server.dir/src/3_server.c.o -o ../bin/3_server 
