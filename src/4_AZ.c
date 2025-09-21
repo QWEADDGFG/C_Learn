@@ -35,14 +35,14 @@ int main(int argc, char *argv[])
     while (1)
     {
         FD_ZERO(&rdset);
-        FD_SET(STDERR_FILENO, &rdset);
+        FD_SET(STDIN_FILENO, &rdset);
         FD_SET(connfd, &rdset);
         select(connfd + 1, &rdset, NULL, NULL, NULL);
-        if (FD_ISSET(STDERR_FILENO, &rdset))
+        if (FD_ISSET(STDIN_FILENO, &rdset))
         {
             // memset(buf, 0, sizeof(buf));
             bzero(buf, sizeof(buf));
-            ssize_t sret = read(STDERR_FILENO, buf, sizeof(buf));
+            ssize_t sret = read(STDIN_FILENO, buf, sizeof(buf));
             if (sret == 0)
             {
                 send(connfd, "exit", 4, 0);
