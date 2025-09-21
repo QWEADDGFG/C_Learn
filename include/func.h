@@ -27,6 +27,7 @@
 #include <sys/uio.h>
 #include <arpa/inet.h>
 #include <netdb.h>
+#include <sys/select.h>
 
 #define SIZE(a) (sizeof(a)/sizeof(a[0]))
 

@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/4_AQ.dir/src/4_AQ.c.o -o ../bin/4_AQ 

@@ -63,8 +63,8 @@ CMAKE_BINARY_DIR = /home/HwHiAiUser/gp/C_C++/C_Learn/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/3_client.dir/all
-all: CMakeFiles/3_server.dir/all
+all: CMakeFiles/4_AQ.dir/all
+all: CMakeFiles/4_AZ.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -72,61 +72,61 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/3_client.dir/clean
-clean: CMakeFiles/3_server.dir/clean
+clean: CMakeFiles/4_AQ.dir/clean
+clean: CMakeFiles/4_AZ.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/3_client.dir
+# Target rules for target CMakeFiles/4_AQ.dir
 
 # All Build rule for target.
-CMakeFiles/3_client.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3_client.dir/build.make CMakeFiles/3_client.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3_client.dir/build.make CMakeFiles/3_client.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/HwHiAiUser/gp/C_C++/C_Learn/build/CMakeFiles --progress-num=1,2 "Built target 3_client"
-.PHONY : CMakeFiles/3_client.dir/all
+CMakeFiles/4_AQ.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4_AQ.dir/build.make CMakeFiles/4_AQ.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4_AQ.dir/build.make CMakeFiles/4_AQ.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/HwHiAiUser/gp/C_C++/C_Learn/build/CMakeFiles --progress-num=1,2 "Built target 4_AQ"
+.PHONY : CMakeFiles/4_AQ.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/3_client.dir/rule: cmake_check_build_system
+CMakeFiles/4_AQ.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/HwHiAiUser/gp/C_C++/C_Learn/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/3_client.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/4_AQ.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/HwHiAiUser/gp/C_C++/C_Learn/build/CMakeFiles 0
-.PHONY : CMakeFiles/3_client.dir/rule
+.PHONY : CMakeFiles/4_AQ.dir/rule
 
 # Convenience name for target.
-3_client: CMakeFiles/3_client.dir/rule
-.PHONY : 3_client
+4_AQ: CMakeFiles/4_AQ.dir/rule
+.PHONY : 4_AQ
 
 # clean rule for target.
-CMakeFiles/3_client.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3_client.dir/build.make CMakeFiles/3_client.dir/clean
-.PHONY : CMakeFiles/3_client.dir/clean
+CMakeFiles/4_AQ.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4_AQ.dir/build.make CMakeFiles/4_AQ.dir/clean
+.PHONY : CMakeFiles/4_AQ.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/3_server.dir
+# Target rules for target CMakeFiles/4_AZ.dir
 
 # All Build rule for target.
-CMakeFiles/3_server.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3_server.dir/build.make CMakeFiles/3_server.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3_server.dir/build.make CMakeFiles/3_server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/HwHiAiUser/gp/C_C++/C_Learn/build/CMakeFiles --progress-num=3,4 "Built target 3_server"
-.PHONY : CMakeFiles/3_server.dir/all
+CMakeFiles/4_AZ.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4_AZ.dir/build.make CMakeFiles/4_AZ.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4_AZ.dir/build.make CMakeFiles/4_AZ.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/HwHiAiUser/gp/C_C++/C_Learn/build/CMakeFiles --progress-num=3,4 "Built target 4_AZ"
+.PHONY : CMakeFiles/4_AZ.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/3_server.dir/rule: cmake_check_build_system
+CMakeFiles/4_AZ.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/HwHiAiUser/gp/C_C++/C_Learn/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/3_server.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/4_AZ.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/HwHiAiUser/gp/C_C++/C_Learn/build/CMakeFiles 0
-.PHONY : CMakeFiles/3_server.dir/rule
+.PHONY : CMakeFiles/4_AZ.dir/rule
 
 # Convenience name for target.
-3_server: CMakeFiles/3_server.dir/rule
-.PHONY : 3_server
+4_AZ: CMakeFiles/4_AZ.dir/rule
+.PHONY : 4_AZ
 
 # clean rule for target.
-CMakeFiles/3_server.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3_server.dir/build.make CMakeFiles/3_server.dir/clean
-.PHONY : CMakeFiles/3_server.dir/clean
+CMakeFiles/4_AZ.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4_AZ.dir/build.make CMakeFiles/4_AZ.dir/clean
+.PHONY : CMakeFiles/4_AZ.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
