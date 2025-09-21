@@ -117,41 +117,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named for
+# Target rules for targets named demo
 
 # Build rule for target.
-for: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 for
-.PHONY : for
+demo: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 demo
+.PHONY : demo
 
 # fast build rule for target.
-for/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/for.dir/build.make CMakeFiles/for.dir/build
-.PHONY : for/fast
+demo/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/build
+.PHONY : demo/fast
 
-src/for.o: src/for.cpp.o
-.PHONY : src/for.o
+src/2_getip.o: src/2_getip.c.o
+.PHONY : src/2_getip.o
 
 # target to build an object file
-src/for.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/for.dir/build.make CMakeFiles/for.dir/src/for.cpp.o
-.PHONY : src/for.cpp.o
+src/2_getip.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/src/2_getip.c.o
+.PHONY : src/2_getip.c.o
 
-src/for.i: src/for.cpp.i
-.PHONY : src/for.i
+src/2_getip.i: src/2_getip.c.i
+.PHONY : src/2_getip.i
 
 # target to preprocess a source file
-src/for.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/for.dir/build.make CMakeFiles/for.dir/src/for.cpp.i
-.PHONY : src/for.cpp.i
+src/2_getip.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/src/2_getip.c.i
+.PHONY : src/2_getip.c.i
 
-src/for.s: src/for.cpp.s
-.PHONY : src/for.s
+src/2_getip.s: src/2_getip.c.s
+.PHONY : src/2_getip.s
 
 # target to generate assembly for a file
-src/for.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/for.dir/build.make CMakeFiles/for.dir/src/for.cpp.s
-.PHONY : src/for.cpp.s
+src/2_getip.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/src/2_getip.c.s
+.PHONY : src/2_getip.c.s
 
 # Help Target
 help:
@@ -161,10 +161,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... for"
-	@echo "... src/for.o"
-	@echo "... src/for.i"
-	@echo "... src/for.s"
+	@echo "... demo"
+	@echo "... src/2_getip.o"
+	@echo "... src/2_getip.i"
+	@echo "... src/2_getip.s"
 .PHONY : help
 
 

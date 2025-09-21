@@ -2,5 +2,6 @@
 # mkdir build
 cd build
 cmake ..
-make
+make clean
+make -j4
 # cp ../bin/demo ..

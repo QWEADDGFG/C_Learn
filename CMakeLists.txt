@@ -8,10 +8,7 @@ set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 find_package(Threads REQUIRED)
 
 # 编译两个可执行文件
-# add_executable(1_a src/1_a.c)
-# add_executable(1_b src/1_b.c)
-# add_executable(pc src/pc.c)
-add_executable(for src/for.cpp)
+add_executable(demo src/2_getip.c)
 
 # 链接 pthread
 # target_link_libraries(pc Threads::Threads)
