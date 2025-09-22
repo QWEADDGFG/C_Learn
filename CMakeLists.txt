@@ -14,8 +14,8 @@ find_package(Threads REQUIRED)
 # add_executable(4_AQ src/4_AQ.c)
 # add_executable(4_AZ_v2 src/4_AZ_v2.c)
 
-add_executable(5_udps src/5_udps.c)
-add_executable(5_udpc src/5_udpc.c)
+add_executable(7_epoll_chat_room src/7_epoll_chat_room.c)
+add_executable(chat_client src/chat_client.c)
 # 链接 pthread
 # target_link_libraries(pc Threads::Threads)
 

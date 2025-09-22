@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/7_epoll_chat_room.dir/src/7_epoll_chat_room.c.o -o ../bin/7_epoll_chat_room 

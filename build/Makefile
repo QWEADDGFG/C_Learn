@@ -117,78 +117,78 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named 5_udps
+# Target rules for targets named 7_epoll_chat_room
 
 # Build rule for target.
-5_udps: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 5_udps
-.PHONY : 5_udps
+7_epoll_chat_room: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 7_epoll_chat_room
+.PHONY : 7_epoll_chat_room
 
 # fast build rule for target.
-5_udps/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/5_udps.dir/build.make CMakeFiles/5_udps.dir/build
-.PHONY : 5_udps/fast
+7_epoll_chat_room/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_epoll_chat_room.dir/build.make CMakeFiles/7_epoll_chat_room.dir/build
+.PHONY : 7_epoll_chat_room/fast
 
 #=============================================================================
-# Target rules for targets named 5_udpc
+# Target rules for targets named chat_client
 
 # Build rule for target.
-5_udpc: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 5_udpc
-.PHONY : 5_udpc
+chat_client: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 chat_client
+.PHONY : chat_client
 
 # fast build rule for target.
-5_udpc/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/5_udpc.dir/build.make CMakeFiles/5_udpc.dir/build
-.PHONY : 5_udpc/fast
+chat_client/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_client.dir/build.make CMakeFiles/chat_client.dir/build
+.PHONY : chat_client/fast
 
-src/5_udpc.o: src/5_udpc.c.o
-.PHONY : src/5_udpc.o
-
-# target to build an object file
-src/5_udpc.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/5_udpc.dir/build.make CMakeFiles/5_udpc.dir/src/5_udpc.c.o
-.PHONY : src/5_udpc.c.o
-
-src/5_udpc.i: src/5_udpc.c.i
-.PHONY : src/5_udpc.i
-
-# target to preprocess a source file
-src/5_udpc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/5_udpc.dir/build.make CMakeFiles/5_udpc.dir/src/5_udpc.c.i
-.PHONY : src/5_udpc.c.i
-
-src/5_udpc.s: src/5_udpc.c.s
-.PHONY : src/5_udpc.s
-
-# target to generate assembly for a file
-src/5_udpc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/5_udpc.dir/build.make CMakeFiles/5_udpc.dir/src/5_udpc.c.s
-.PHONY : src/5_udpc.c.s
-
-src/5_udps.o: src/5_udps.c.o
-.PHONY : src/5_udps.o
+src/7_epoll_chat_room.o: src/7_epoll_chat_room.c.o
+.PHONY : src/7_epoll_chat_room.o
 
 # target to build an object file
-src/5_udps.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/5_udps.dir/build.make CMakeFiles/5_udps.dir/src/5_udps.c.o
-.PHONY : src/5_udps.c.o
+src/7_epoll_chat_room.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_epoll_chat_room.dir/build.make CMakeFiles/7_epoll_chat_room.dir/src/7_epoll_chat_room.c.o
+.PHONY : src/7_epoll_chat_room.c.o
 
-src/5_udps.i: src/5_udps.c.i
-.PHONY : src/5_udps.i
+src/7_epoll_chat_room.i: src/7_epoll_chat_room.c.i
+.PHONY : src/7_epoll_chat_room.i
 
 # target to preprocess a source file
-src/5_udps.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/5_udps.dir/build.make CMakeFiles/5_udps.dir/src/5_udps.c.i
-.PHONY : src/5_udps.c.i
+src/7_epoll_chat_room.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_epoll_chat_room.dir/build.make CMakeFiles/7_epoll_chat_room.dir/src/7_epoll_chat_room.c.i
+.PHONY : src/7_epoll_chat_room.c.i
 
-src/5_udps.s: src/5_udps.c.s
-.PHONY : src/5_udps.s
+src/7_epoll_chat_room.s: src/7_epoll_chat_room.c.s
+.PHONY : src/7_epoll_chat_room.s
 
 # target to generate assembly for a file
-src/5_udps.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/5_udps.dir/build.make CMakeFiles/5_udps.dir/src/5_udps.c.s
-.PHONY : src/5_udps.c.s
+src/7_epoll_chat_room.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_epoll_chat_room.dir/build.make CMakeFiles/7_epoll_chat_room.dir/src/7_epoll_chat_room.c.s
+.PHONY : src/7_epoll_chat_room.c.s
+
+src/chat_client.o: src/chat_client.c.o
+.PHONY : src/chat_client.o
+
+# target to build an object file
+src/chat_client.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_client.dir/build.make CMakeFiles/chat_client.dir/src/chat_client.c.o
+.PHONY : src/chat_client.c.o
+
+src/chat_client.i: src/chat_client.c.i
+.PHONY : src/chat_client.i
+
+# target to preprocess a source file
+src/chat_client.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_client.dir/build.make CMakeFiles/chat_client.dir/src/chat_client.c.i
+.PHONY : src/chat_client.c.i
+
+src/chat_client.s: src/chat_client.c.s
+.PHONY : src/chat_client.s
+
+# target to generate assembly for a file
+src/chat_client.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_client.dir/build.make CMakeFiles/chat_client.dir/src/chat_client.c.s
+.PHONY : src/chat_client.c.s
 
 # Help Target
 help:
@@ -198,14 +198,14 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... 5_udpc"
-	@echo "... 5_udps"
-	@echo "... src/5_udpc.o"
-	@echo "... src/5_udpc.i"
-	@echo "... src/5_udpc.s"
-	@echo "... src/5_udps.o"
-	@echo "... src/5_udps.i"
-	@echo "... src/5_udps.s"
+	@echo "... 7_epoll_chat_room"
+	@echo "... chat_client"
+	@echo "... src/7_epoll_chat_room.o"
+	@echo "... src/7_epoll_chat_room.i"
+	@echo "... src/7_epoll_chat_room.s"
+	@echo "... src/chat_client.o"
+	@echo "... src/chat_client.i"
+	@echo "... src/chat_client.s"
 .PHONY : help
 
 

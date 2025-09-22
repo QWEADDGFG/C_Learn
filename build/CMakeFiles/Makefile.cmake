@@ -50,6 +50,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/5_udps.dir/DependInfo.cmake"
-  "CMakeFiles/5_udpc.dir/DependInfo.cmake"
+  "CMakeFiles/7_epoll_chat_room.dir/DependInfo.cmake"
+  "CMakeFiles/chat_client.dir/DependInfo.cmake"
   )
