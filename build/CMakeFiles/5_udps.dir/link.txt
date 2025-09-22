@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/5_udps.dir/src/5_udps.c.o -o ../bin/5_udps 

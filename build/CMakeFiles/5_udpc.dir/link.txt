@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/5_udpc.dir/src/5_udpc.c.o -o ../bin/5_udpc 

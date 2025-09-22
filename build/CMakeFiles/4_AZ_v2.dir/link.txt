@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/4_AZ_v2.dir/src/4_AZ_v2.c.o -o ../bin/4_AZ_v2 

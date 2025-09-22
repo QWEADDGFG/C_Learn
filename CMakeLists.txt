@@ -11,8 +11,11 @@ find_package(Threads REQUIRED)
 # add_executable(demo src/2_getip.c)
 # add_executable(3_client src/3_client.c)
 # add_executable(3_server src/3_server.c)
-add_executable(4_AQ src/4_AQ.c)
-add_executable(4_AZ_v2 src/4_AZ_v2.c)
+# add_executable(4_AQ src/4_AQ.c)
+# add_executable(4_AZ_v2 src/4_AZ_v2.c)
+
+add_executable(5_udps src/5_udps.c)
+add_executable(5_udpc src/5_udpc.c)
 # 链接 pthread
 # target_link_libraries(pc Threads::Threads)
 

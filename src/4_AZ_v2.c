@@ -21,10 +21,10 @@ int main(int argc, char *argv[])
     // listen函数将socket变为监听状态，摧毁了socket的发送缓冲区与接收缓冲区，并开始监听来自客户端的连接请求，半连接队列与全连接队列的大小由listen函数的第二个参数指定。
     listen(sockfd, 10);
 
-    fd_set rdset;
+    fd_set rdset; //每次seleect监控的集合
     fd_set monitorset; // 下一次的监控集合
     FD_ZERO(&monitorset);
-    FD_SET(sockfd, &rdset);
+    FD_SET(sockfd, &monitorset);
 
     char buf[1024];
     int connfd;
@@ -38,7 +38,7 @@ int main(int argc, char *argv[])
         {
             struct sockaddr_in client_addr;
             socklen_t client_len = sizeof(client_addr);
-            int connfd = accept(sockfd, (struct sockaddr *)&client_addr, &client_len);
+            connfd = accept(sockfd, (struct sockaddr *)&client_addr, &client_len);
             printf("new connection from %s:%d\n", inet_ntoa(client_addr.sin_addr), ntohs(client_addr.sin_port));
             // 服务端在连上一个客户端，不和其他客户端通信
             FD_CLR(sockfd, &monitorset);
@@ -57,6 +57,7 @@ int main(int argc, char *argv[])
                 FD_CLR(connfd, &monitorset);
                 close(connfd);
                 printf("close connection\n");
+                break;
             }
             send(connfd, buf, sret, 0);
         }
@@ -72,6 +73,7 @@ int main(int argc, char *argv[])
                 FD_CLR(connfd, &monitorset);
                 close(connfd);
                 printf("close connection\n");
+                continue;
             }
             printf("recv: %s\n", buf);
         }
