@@ -63,7 +63,8 @@ int main(int argc, char *argv[])
                 connections_client[curr_conn_idx].last_active_time = time(NULL); // 初始化活跃时间
 
                 event.data.fd = connfd;
-                event.events = EPOLLIN | EPOLLET;               // 监听连接的可读事件
+                // event.events = EPOLLIN | EPOLLET;               // 监听连接的可读事件,边缘触发一般不使用
+                event.events = EPOLLIN;
                 epoll_ctl(epfd, EPOLL_CTL_ADD, connfd, &event); // 注册事件到epoll实例中
                 curr_conn_idx++;
             }
